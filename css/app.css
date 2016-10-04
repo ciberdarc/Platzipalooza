@@ -95,3 +95,11 @@ Foundation no permite centrarlo, agregar estilo adicional
 display: inline-block;
 float: none;
 }
+
+#lineup-container .orbit-container{
+	margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption{
+	text-align: right;
+}
