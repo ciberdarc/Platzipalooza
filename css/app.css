@@ -103,3 +103,29 @@ float: none;
 #lineup-container .column:nth-child(odd) figcaption{
 	text-align: right;
 }
+
+#tickets-container{
+	/*1em Superior, 0 en inferior */
+	padding: 1em 0;
+	background-color: #f6e15f;
+	color: #161742;
+}
+
+.pricing-table{
+	border: 1px solid #161742;
+	font-family: 'Ravi Prakash', cursive;
+}
+
+.pricing-table li,
+.pricing-table li.description{
+	font-size: 20px;
+}
+
+.pricing-table li.price,
+.pricing-table li.title{
+	font-size: 30px;
+}
+
+.pricing-table a.button{
+	font-family: 'Bree Serif', serif;
+}
