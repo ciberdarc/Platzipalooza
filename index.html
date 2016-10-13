@@ -47,23 +47,26 @@
 
     <!-- Menu-->
     <section id="menu-container">
+     <!-- Tipo de navegacion-->
+    <nav data-magellan>
     <!-- Si queremos que los iconos se muestren arriba del texto del menu se agrega a ul la clase icon-top-->
       <ul class="menu dropdown align-spaced" data-dropdown-menu>
       <!-- -->
       <!-- Para poder marcar en que seccion nos encontramos podemos agregar la clase active-->
       <!-- Si queremos agregar el icono con el texto dentro del menu se agrega el tag i mas la clase fi del icono-->
-        <li><a href="#">Tickets</a></li>
+        <li><a href="#tickets-container">Tickets</a></li>
         <li>
-          <a href="#">Lineup</a>
+          <a href="#lineup-container">Lineup</a>
            <ul id="submenu-container" class="menu">
             <li><a href="#">Viernes</a></li>
             <li><a href="#">Sabado</a></li>
             <li><a href="#">Domingo</a></li>
           </ul>
         </li>
-        <li><a href="#">Info</a></li>
-        <li><a href="#">Suscribete</a></li>
+        <li><a href="#info-container">Info</a></li>
+        <li><a href="#suscribete-container">Suscribete</a></li>
       </ul>
+      </nav>
     </section>
     <!-- Menu -->
 
@@ -78,7 +81,7 @@
     <!-- /Tickets -->
 
     <!-- Lineup -->
-    <section id="lineup-container">
+    <section id="lineup-container" data-magellan-target="lineup-container">
     <!-- La clase text-center es de foundation -->
       <h3 class="text-center">Lineup</h3>
       <ul class="tabs text-center" data-tabs id="lineup-tabs">
@@ -248,7 +251,7 @@
     </section>
     <!-- /Lineup -->
     <!-- Compra de boletos -->
-    <section id="tickets-container">
+    <section id="tickets-container" data-magellan-target="tickets-container">
       <h3 class="text-center">Comprar boletos</h3>
       <div class="row" data-equalizer data-equalize-on="small"> 
         <div class="column small-10 small-offset-1 medium-6 medium-offset-3">
@@ -291,7 +294,7 @@
 
     <!-- Compra de boletos -->
     <!-- Suscribete -->
-    <section id="suscribete-container">
+    <section id="suscribete-container" data-magellan-target="suscribete-container">
       <h3 class="text-center">Suscribete</h3>
       <h4 class="text-center"><small>Y recibe las últimas novedades del concierto</small></h4>
       <form action="" method="" novalidate data-abide>
@@ -312,7 +315,7 @@
 
     <!-- Suscribete -->
     <!-- Info -->
-    <section id="info-container">
+    <section id="info-container" data-magellan-target="info-container">
       <h3 class="text-center">Informacion</h3>
       <div class="info-map" data-interchange="[assets/map-small.html, small],[assets/map.html, medium]">  
       </div>
