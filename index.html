@@ -46,27 +46,29 @@
     <!-- Logo -->
 
     <!-- Menu-->
-    <section id="menu-container">
+    <section id="scrollSticky" data-sticky-container>
+    <div class="data-sticky" data-sticky data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
      <!-- Tipo de navegacion-->
-    <nav data-magellan>
-    <!-- Si queremos que los iconos se muestren arriba del texto del menu se agrega a ul la clase icon-top-->
-      <ul class="menu dropdown align-spaced" data-dropdown-menu>
-      <!-- -->
-      <!-- Para poder marcar en que seccion nos encontramos podemos agregar la clase active-->
-      <!-- Si queremos agregar el icono con el texto dentro del menu se agrega el tag i mas la clase fi del icono-->
-        <li><a href="#tickets-container">Tickets</a></li>
-        <li>
-          <a href="#lineup-container">Lineup</a>
-           <ul id="submenu-container" class="menu">
-            <li><a href="#">Viernes</a></li>
-            <li><a href="#">Sabado</a></li>
-            <li><a href="#">Domingo</a></li>
+      <nav id="menu-container" data-magellan>
+      <!-- Si queremos que los iconos se muestren arriba del texto del menu se agrega a ul la clase icon-top-->
+          <ul class="menu dropdown align-spaced" data-dropdown-menu>
+          <!-- -->
+          <!-- Para poder marcar en que seccion nos encontramos podemos agregar la clase active-->
+          <!-- Si queremos agregar el icono con el texto dentro del menu se agrega el tag i mas la clase fi del icono-->
+            <li><a href="#tickets-container">Tickets</a></li>
+            <li>
+              <a href="#lineup-container">Lineup</a>
+               <ul id="submenu-container" class="menu">
+                <li><a href="#">Viernes</a></li>
+                <li><a href="#">Sabado</a></li>
+                <li><a href="#">Domingo</a></li>
+              </ul>
+            </li>
+            <li><a href="#info-container">Info</a></li>
+            <li><a href="#suscribete-container">Suscribete</a></li>
           </ul>
-        </li>
-        <li><a href="#info-container">Info</a></li>
-        <li><a href="#suscribete-container">Suscribete</a></li>
-      </ul>
-      </nav>
+        </nav>
+      </div>
     </section>
     <!-- Menu -->
 

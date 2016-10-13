@@ -159,3 +159,8 @@ float: none;
 	background-color: rgb(255,228,228);
 	border-color: rgb(255,228,228);
 }
+
+.data-sticky{
+	width: 100%;
+	z-index: 100;
+}
