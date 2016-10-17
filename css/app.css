@@ -1,5 +1,5 @@
 body{
-	background-color: #ee3f54;
+	background-color: black;
 	
 }
 
@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
 #menu-container li a{
 	color: white;
 	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
 	
 }
 
@@ -163,4 +164,11 @@ float: none;
 .data-sticky{
 	width: 100%;
 	z-index: 100;
+}
+
+#offCanvas,
+#offCanvas li a{
+	background-color: black;
+	color: white;
+	font-family: 'Bree Serif', serif;
 }
